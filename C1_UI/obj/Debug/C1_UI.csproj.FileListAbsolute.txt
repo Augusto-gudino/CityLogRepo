@@ -1,0 +1,11 @@
+C:\Users\fgudi\OneDrive\Escritorio\CityLog\CRUD_CITYLOG\C1_UI\bin\Debug\C1_UI.exe.config
+C:\Users\fgudi\OneDrive\Escritorio\CityLog\CRUD_CITYLOG\C1_UI\bin\Debug\C1_UI.exe
+C:\Users\fgudi\OneDrive\Escritorio\CityLog\CRUD_CITYLOG\C1_UI\bin\Debug\C1_UI.pdb
+C:\Users\fgudi\OneDrive\Escritorio\CityLog\CRUD_CITYLOG\C1_UI\obj\Debug\C1_UI.csproj.AssemblyReference.cache
+C:\Users\fgudi\OneDrive\Escritorio\CityLog\CRUD_CITYLOG\C1_UI\obj\Debug\C1_UI.Login.resources
+C:\Users\fgudi\OneDrive\Escritorio\CityLog\CRUD_CITYLOG\C1_UI\obj\Debug\C1_UI.Properties.Resources.resources
+C:\Users\fgudi\OneDrive\Escritorio\CityLog\CRUD_CITYLOG\C1_UI\obj\Debug\C1_UI.csproj.GenerateResource.cache
+C:\Users\fgudi\OneDrive\Escritorio\CityLog\CRUD_CITYLOG\C1_UI\obj\Debug\C1_UI.csproj.CoreCompileInputs.cache
+C:\Users\fgudi\OneDrive\Escritorio\CityLog\CRUD_CITYLOG\C1_UI\obj\Debug\C1_UI.exe
+C:\Users\fgudi\OneDrive\Escritorio\CityLog\CRUD_CITYLOG\C1_UI\obj\Debug\C1_UI.pdb
+C:\Users\fgudi\OneDrive\Escritorio\CityLog\CRUD_CITYLOG\C1_UI\obj\Debug\C1_UI.MenuPrincipal.resources
