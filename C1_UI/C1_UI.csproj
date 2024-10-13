@@ -46,12 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AgregarPedido.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AgregarPedido.Designer.cs">
-      <DependentUpon>AgregarPedido.cs</DependentUpon>
-    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +91,42 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\LogoCityLog-Photoroom1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimizar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tamano-completo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrar-simbolo-de-boton-circular.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\favorecido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bebidas-sin-alcohol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salud.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\golosinas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lista.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eliminar.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
