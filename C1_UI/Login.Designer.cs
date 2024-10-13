@@ -31,7 +31,7 @@
             this.groupBoxLogin = new System.Windows.Forms.GroupBox();
             this.btnCancelarLogin = new System.Windows.Forms.Button();
             this.btnIngresarLogin = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt_login = new System.Windows.Forms.TextBox();
             this.labelContrasena = new System.Windows.Forms.Label();
             this.PictureBoxLoginLogo = new System.Windows.Forms.PictureBox();
             this.groupBoxLogin.SuspendLayout();
@@ -43,7 +43,7 @@
             this.groupBoxLogin.BackColor = System.Drawing.Color.SandyBrown;
             this.groupBoxLogin.Controls.Add(this.btnCancelarLogin);
             this.groupBoxLogin.Controls.Add(this.btnIngresarLogin);
-            this.groupBoxLogin.Controls.Add(this.textBox1);
+            this.groupBoxLogin.Controls.Add(this.txt_login);
             this.groupBoxLogin.Controls.Add(this.labelContrasena);
             this.groupBoxLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBoxLogin.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -65,6 +65,7 @@
             this.btnCancelarLogin.TabIndex = 3;
             this.btnCancelarLogin.Text = "Cancelar";
             this.btnCancelarLogin.UseVisualStyleBackColor = true;
+            this.btnCancelarLogin.Click += new System.EventHandler(this.btnCancelarLogin_Click);
             // 
             // btnIngresarLogin
             // 
@@ -75,13 +76,15 @@
             this.btnIngresarLogin.TabIndex = 2;
             this.btnIngresarLogin.Text = "Ingresar";
             this.btnIngresarLogin.UseVisualStyleBackColor = true;
+            this.btnIngresarLogin.Click += new System.EventHandler(this.btnIngresarLogin_Click);
             // 
-            // textBox1
+            // txt_login
             // 
-            this.textBox1.Location = new System.Drawing.Point(159, 79);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(162, 26);
-            this.textBox1.TabIndex = 1;
+            this.txt_login.Location = new System.Drawing.Point(159, 79);
+            this.txt_login.Name = "txt_login";
+            this.txt_login.Size = new System.Drawing.Size(162, 26);
+            this.txt_login.TabIndex = 1;
+            this.txt_login.UseSystemPasswordChar = true;
             // 
             // labelContrasena
             // 
@@ -96,12 +99,13 @@
             // 
             this.PictureBoxLoginLogo.BackColor = System.Drawing.Color.SandyBrown;
             this.PictureBoxLoginLogo.Image = global::C1_UI.Properties.Resources.LogoCityLog_Photoroom1;
-            this.PictureBoxLoginLogo.Location = new System.Drawing.Point(203, 27);
+            this.PictureBoxLoginLogo.Location = new System.Drawing.Point(196, 12);
             this.PictureBoxLoginLogo.Name = "PictureBoxLoginLogo";
-            this.PictureBoxLoginLogo.Size = new System.Drawing.Size(204, 140);
+            this.PictureBoxLoginLogo.Size = new System.Drawing.Size(229, 155);
             this.PictureBoxLoginLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PictureBoxLoginLogo.TabIndex = 1;
             this.PictureBoxLoginLogo.TabStop = false;
+            this.PictureBoxLoginLogo.Click += new System.EventHandler(this.PictureBoxLoginLogo_Click);
             // 
             // Login
             // 
@@ -130,7 +134,7 @@
         private System.Windows.Forms.Label labelContrasena;
         private System.Windows.Forms.Button btnCancelarLogin;
         private System.Windows.Forms.Button btnIngresarLogin;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txt_login;
         private System.Windows.Forms.PictureBox PictureBoxLoginLogo;
     }
 }

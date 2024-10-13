@@ -16,5 +16,30 @@ namespace C1_UI
         {
             InitializeComponent();
         }
+
+        private void PictureBoxLoginLogo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnIngresarLogin_Click(object sender, EventArgs e)
+        {
+            if (txt_login.Text == "123")
+            {
+                this.DialogResult = DialogResult.OK;
+            }
+            else
+            {
+                this.DialogResult = DialogResult.No;
+            }
+            Hide();
+
+        }
+
+        private void btnCancelarLogin_Click(object sender, EventArgs e)
+        {
+            this.DialogResult = DialogResult.Cancel;
+            Hide();
+        }
     }
 }
